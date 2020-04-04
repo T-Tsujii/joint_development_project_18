@@ -5,14 +5,14 @@ default: &default
 
 development:
   <<: *default
-  database: joint_development_project_01_development
+  database: joint_development_project_18_development
 
 test:
   <<: *default
-  database: joint_development_project_01_test
+  database: joint_development_project_18_test
 
 production:
   <<: *default
-  database: joint_development_project_01_production
+  database: joint_development_project_18_production
   username: joint_development_project
   password: <%= ENV['JOINT_DEVELOPMENT_PROJECT_DATABASE_PASSWORD'] %>

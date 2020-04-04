@@ -10,6 +10,8 @@ capybara-*.html
 *.orig
 rerun.txt
 pickle-email-*.html
+.DS_Store
+/.idea
 
 # Ignore all logfiles and tempfiles.
 /log/*
@@ -32,8 +34,6 @@ config/master.key
 ## Environment normalization:
 /.bundle
 /vendor/bundle
-.DS_Store
-/.idea
 
 # these should all be checked in to normalize the environment:
 # Gemfile.lock, .ruby-version, .ruby-gemset
