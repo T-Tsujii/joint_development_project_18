@@ -8,6 +8,9 @@ class MessagesController < ApplicationController
     Message.create(message_params)
   end
 
+  def index
+    @messages = Message.all
+  end
 
   private
   def message_params

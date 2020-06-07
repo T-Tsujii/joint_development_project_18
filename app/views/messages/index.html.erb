@@ -1,0 +1,5 @@
+<p>メッセージ一覧</p>
+<%= link_to "登録画面へ", new_message_path %>
+<% @messages.each do |message| %>
+  <p><%= message.title %></p>
+<% end %>
