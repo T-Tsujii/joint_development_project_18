@@ -10,14 +10,24 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2020_06_07_082108) do
+=======
+ActiveRecord::Schema.define(version: 2020_06_08_090436) do
+>>>>>>> master
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+<<<<<<< HEAD
   create_table "messages", force: :cascade do |t|
     t.string "title"
     t.string "content"
+=======
+  create_table "users", force: :cascade do |t|
+    t.string "name"
+    t.integer "age"
+>>>>>>> master
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
