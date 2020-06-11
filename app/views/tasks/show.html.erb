@@ -1,0 +1,8 @@
+<div class="card border-info mb-3" style="max-width: 18rem;">
+    <h2 class="card-header">タスク詳細</h2>
+    <div class="card-body text-info">
+      <h5 class="card-title">タイトル:<%= @task.title %></h5>
+      <p class="card-text">内容：<%= @task.content %></p>
+    </div>
+</div>
+<p class="link"><%= link_to "一覧画面へ", tasks_path %></p>
