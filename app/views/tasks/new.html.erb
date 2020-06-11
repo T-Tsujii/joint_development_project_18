@@ -1,0 +1,9 @@
+<div class="form-group">  
+  <h1>タスク作成</h1>
+  <%= form_with model: @task, local: true do |f| %>
+    <p><%= f.label :title, "タイトル" %> <%= f.text_field :title, class: "form-control" %></p>
+    <p><%= f.label :content, "内容" %> <%= f.text_field :content, class: "form-control" %></p>
+    <p id="submit"><%= f.submit "送信", class: "btn btn-primary" %></p>
+  <% end %>
+</div>
+<p class="link"><%= link_to "一覧画面へ", tasks_path %></p>
