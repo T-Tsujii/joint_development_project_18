@@ -25,14 +25,13 @@ a:hover {
     width: 400px;
     border: solid 3px skyblue;
     border-radius: 10px;
-    margin: 0 auto;
-    margin-bottom: 20px;
+    margin: 20px auto;
     padding: 30px;
     h1{
         margin-bottom: 20px;
         text-align: center;
     }
-    p:last-child{
+    #submit{
         text-align: center;
     }
     .btn{
@@ -40,6 +39,10 @@ a:hover {
     }
 }
 
-.formlow-link{
+.link{
     text-align: center;
+}
+
+.card{
+    margin: 20px auto 0;
 }

@@ -3,7 +3,7 @@
   <%= form_with model: @task, local: true do |f| %>
     <p><%= f.label :title, "タイトル" %> <%= f.text_field :title, class: "form-control" %></p>
     <p><%= f.label :content, "内容" %> <%= f.text_field :content, class: "form-control" %></p>
-    <p><%= f.submit "送信", class: "btn btn-primary" %></p>
+    <p id="submit"><%= f.submit "送信", class: "btn btn-primary" %></p>
   <% end %>
 </div>
-<p class="formlow-link"><%= link_to "一覧画面へ", tasks_path %></p>
+<p class="link"><%= link_to "一覧画面へ", tasks_path %></p>
